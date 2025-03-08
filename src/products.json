@@ -1,0 +1,345 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS9OPJsNMtuq1dxFR72lzNXevX_rYaUy5l0sFvK3G8pvfNhw6tdq9EFgknpIShoZzvAUgETak4nmBoM4h56Lwi8Vax6D7FO--uHaUC8TzvA6edS9wb5nvv_7g",
+      "description": "High-quality wireless headphones with noise cancellation and 20-hour battery life.",
+      "price": 49.99,
+      "category": "Electronics",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Smartphone 5G",
+      "image": "https://m.media-amazon.com/images/I/718GKflxp-L.jpg",
+      "description": "Latest 5G smartphone with an advanced camera and long-lasting battery.",
+      "price": 699.99,
+      "category": "Mobile Phones",
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "name": "Gaming Laptop",
+      "image": "https://my-store.msi.com/cdn/shop/files/Cyborg-15-A13VX-rgb_1_b47f3697-efe5-43d4-b805-03bcbcb38817_700x700.png?v=1736153857",
+      "description": "Powerful gaming laptop with RTX 3060 GPU and 16GB RAM.",
+      "price": 1299.99,
+      "category": "Laptops",
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "name": "Men's Running Shoes",
+      "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/450ed1df-8e17-4d87-a244-85697874661c/NIKE+REVOLUTION+7.png",
+      "description": "Comfortable and lightweight running shoes for everyday wear.",
+      "price": 79.99,
+      "category": "Footwear",
+      "rating": 4.3
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch",
+      "image": "https://www.mytrendyphone.eu/images/Forever-ForeVive-Lite-SB-315-Waterproof-Smartwatch-Black-5900495908360-18102021-01-p.webp",
+      "description": "Waterproof smartwatch with fitness tracking and heart rate monitor.",
+      "price": 199.99,
+      "category": "Wearables",
+      "rating": 4.6
+    },
+    {
+      "id": 6,
+      "name": "4K LED Smart TV",
+      "image": "https://ecartse.com/wp-content/uploads/2024/04/Mi-Redmi-xiaomi-43-inch.jpg",
+      "description": "Ultra HD 4K Smart TV with HDR and voice control.",
+      "price": 899.99,
+      "category": "Electronics",
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "name": "Gaming Mouse",
+      "image": "https://m.media-amazon.com/images/I/71vm32j2InL._AC_UF1000,1000_QL80_.jpg",
+      "description": "High-precision gaming mouse with customizable RGB lighting.",
+      "price": 39.99,
+      "category": "Computer Accessories",
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "name": "Mechanical Keyboard",
+      "image": "https://m.media-amazon.com/images/I/71LBvbVa95L._AC_UF1000,1000_QL80_.jpg",
+      "description": "RGB mechanical keyboard with customizable keys.",
+      "price": 79.99,
+      "category": "Computer Accessories",
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "name": "Stainless Steel Watch",
+      "image": "https://m.media-amazon.com/images/I/71NWk1a1hQL._AC_SL1500_.jpg",
+      "description": "Luxury stainless steel watch with sapphire glass.",
+      "price": 299.99,
+      "category": "Watches",
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "name": "Portable Bluetooth Speaker",
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2024/11/portablebluetoothspeakers-2048px-9481.jpg?auto=webp&quality=75&width=1024",
+      "description": "Waterproof portable Bluetooth speaker with deep bass.",
+      "price": 59.99,
+      "category": "Electronics",
+      "rating": 4.5
+    },
+    {
+      "id": 11,
+      "name": "Office Chair",
+      "image": "https://m.media-amazon.com/images/I/71m901lXArL.jpg",
+      "description": "Ergonomic office chair with lumbar support.",
+      "price": 129.99,
+      "category": "Furniture",
+      "rating": 4.6
+    },
+    {
+      "id": 12,
+      "name": "Electric Kettle",
+      "image": "https://www.wonderchef.com/cdn/shop/files/6799471_1024x1024.jpg?v=1735753171",
+      "description": "Fast-boiling electric kettle with auto shut-off.",
+      "price": 34.99,
+      "category": "Kitchen Appliances",
+      "rating": 4.4
+    },
+    {
+      "id": 13,
+      "name": "Leather Handbag",
+      "image": "https://cdn.khadims.com/image/tr:e-sharpen-01,h-822,w-940,cm-pad_resize/data/khadims/22feb2024/14601114640_5.jpg",
+      "description": "Elegant leather handbag with spacious compartments.",
+      "price": 89.99,
+      "category": "Fashion",
+      "rating": 4.7
+    },
+    {
+      "id": 14,
+      "name": "Men's Winter Jacket",
+      "image": "https://m.media-amazon.com/images/I/91b6+74G5uL._AC_UY1100_.jpg",
+      "description": "Warm and stylish winter jacket for men.",
+      "price": 119.99,
+      "category": "Fashion",
+      "rating": 4.5
+    },
+    {
+      "id": 15,
+      "name": "Women's Sunglasses",
+      "image": "https://m.media-amazon.com/images/I/41AgT8f5DVL._AC_UY1100_.jpg",
+      "description": "UV-protected stylish sunglasses for women.",
+      "price": 29.99,
+      "category": "Accessories",
+      "rating": 4.6
+    },
+    {
+      "id": 16,
+      "name": "Electric Hair Dryer",
+      "image": "https://zoromy.com/cdn/shop/files/NewProject_65.png?v=1713535482",
+      "description": "Professional hair dryer with multiple heat settings.",
+      "price": 49.99,
+      "category": "Personal Care",
+      "rating": 4.4
+    },
+    {
+      "id": 17,
+      "name": "Foldable Treadmill",
+      "image": "https://contents.mediadecathlon.com/m17912533/a48439a5b7cbd6c10b194a237650b331/m17912533.jpg?format=auto&quality=70&f=2520x0",
+      "description": "Compact and foldable treadmill for home workouts.",
+      "price": 499.99,
+      "category": "Fitness",
+      "rating": 4.7
+    },
+    {
+      "id": 18,
+      "name": "Cordless Vacuum Cleaner",
+      "image": "https://ilifecare.in/cdn/shop/files/H80-main-1600-1.jpg?v=1715597283",
+      "description": "Lightweight cordless vacuum cleaner for deep cleaning.",
+      "price": 189.99,
+      "category": "Home Appliances",
+      "rating": 4.6
+    },
+    {
+        "id": 19,
+        "name": "Wireless Bluetooth Headphones",
+        "image": "https://images-cdn.ubuy.co.in/6350203b9650585f3c50280a-pcs-noise-cancelling-bluetooth.jpg",
+        "description": "Noise-canceling headphones with 20-hour battery life.",
+        "price": 49.99,
+        "category": "Electronics",
+        "rating": 4.5
+      },
+      {
+        "id": 20,
+        "name": "Smartphone 5G",
+        "image": "https://cscbankmitragov.com/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-22-at-10.28.15.jpeg",
+        "description": "High-speed 5G smartphone with a 108MP camera.",
+        "price": 699.99,
+        "category": "Mobile Phones",
+        "rating": 4.8
+      },
+      {
+        "id": 21,
+        "name": "Gaming Laptop RTX 4060",
+        "image": "https://images-cdn.ubuy.co.in/659f27372ae793322f573a4b-dell-g16-16-gaming-laptop-intel-core.jpg",
+        "description": "Gaming laptop with RTX 4060 GPU and 32GB RAM.",
+        "price": 1499.99,
+        "category": "Computers",
+        "rating": 4.7
+      },
+      {
+        "id": 22,
+        "name": "Smart LED TV 4K",
+        "image": "https://i03.appmifile.com/306_item_in/12/09/2024/1c00f3a3def6ee3a76708a658eb426a0.png",
+        "description": "55-inch Ultra HD 4K Smart TV with Dolby Vision.",
+        "price": 899.99,
+        "category": "Electronics",
+        "rating": 4.6
+      },
+      {
+        "id": 23,
+        "name": "Men's Running Shoes",
+        "image": "https://www.asics.co.in/media/catalog/product/1/0/1013a142_400_sr_rt_glb-base.jpg?optimize=high&bg-color=255%2C255%2C255&fit=cover&height=375&width=500&auto=webp&format=pjpg",
+        "description": "Breathable and lightweight running shoes for daily use.",
+        "price": 79.99,
+        "category": "Footwear",
+        "rating": 4.3
+      },
+      {
+        "id": 24,
+        "name": "Women's Leather Handbag",
+        "image": "https://www.montexoo.in/cdn/shop/products/GenuineLeatherLadiesToteBag_1.jpg?v=1646809602",
+        "description": "Elegant leather handbag with multiple compartments.",
+        "price": 129.99,
+        "category": "Fashion",
+        "rating": 4.7
+      },
+      {
+        "id": 25,
+        "name": "Gaming Mouse RGB",
+        "image": "https://www.portronics.com/cdn/shop/files/Artboard1_276d2c01-e233-443e-b7fe-1b2b12d53f75.jpg?v=1708070441",
+        "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+        "price": 39.99,
+        "category": "Computer Accessories",
+        "rating": 4.6
+      },
+      {
+        "id": 26,
+        "name": "Mechanical Keyboard RGB",
+        "image": "hhttps://cougargaming.com/_cgrwdr_/wwdpp/wp-content/uploads/2019/01/product-section-02-19.jpg",
+        "description": "Mechanical keyboard with customizable RGB backlighting.",
+        "price": 89.99,
+        "category": "Computer Accessories",
+        "rating": 4.8
+      },
+      {
+        "id": 27,
+        "name": "Portable Bluetooth Speaker",
+        "image": "https://res.cloudinary.com/sharp-consumer-eu/image/fetch/w_1100,f_auto,q_auto/https://s3.infra.brandquad.io/accounts-media/SHRP/DAM/origin/da29424c-30ae-11eb-a086-96ba08a308c3.jpg",
+        "description": "Waterproof portable speaker with deep bass sound.",
+        "price": 59.99,
+        "category": "Electronics",
+        "rating": 4.5
+      },
+      {
+        "id": 28,
+        "name": "Smartwatch Pro",
+        "image": "https://img.joomcdn.net/14061d2e37c7862ec94400119bb080338615a950_original.jpeg",
+        "description": "Advanced smartwatch with health tracking features.",
+        "price": 249.99,
+        "category": "Wearables",
+        "rating": 4.7
+      },
+      {
+        "id": 29,
+        "name": "4K Action Camera",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/sports-action-camera/q/0/l/action-camera-4k-action-camera-2-16-4k-action-camera-underwater-original-imagp3bkxc6eav79.jpeg?q=20&crop=false",
+        "description": "Waterproof action camera with 4K video recording.",
+        "price": 179.99,
+        "category": "Cameras",
+        "rating": 4.6
+      },
+      {
+        "id": 30,
+        "name": "Noise Cancelling Earbuds",
+        "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQLK3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1682361480894",
+        "description": "True wireless earbuds with active noise cancellation.",
+        "price": 129.99,
+        "category": "Electronics",
+        "rating": 4.5
+      },
+      {
+        "id": 31,
+        "name": "Professional DSLR Camera",
+        "image": "https://cdn.mos.cms.futurecdn.net/2BQeqcJduvQcs7XNX64F4C.png",
+        "description": "Full-frame DSLR camera with 24.1MP resolution.",
+        "price": 1499.99,
+        "category": "Cameras",
+        "rating": 4.8
+      },
+      {
+        "id": 32,
+        "name": "Adjustable Office Chair",
+        "image": "https://m.media-amazon.com/images/I/81OM5dUloKL.jpg",
+        "description": "Ergonomic office chair with lumbar support.",
+        "price": 219.99,
+        "category": "Furniture",
+        "rating": 4.7
+      },
+      {
+        "id": 33,
+        "name": "Foldable Treadmill",
+        "image": "https://fitspace.co.in/cdn/shop/products/61JGS5rEW3S-2.jpg?v=1661235252",
+        "description": "Compact and foldable treadmill for home workouts.",
+        "price": 499.99,
+        "category": "Fitness",
+        "rating": 4.7
+      },
+      {
+        "id": 34,
+        "name": "Electric Toothbrush",
+        "image": "https://m.media-amazon.com/images/I/61ZW19O83XL._AC_UF1000,1000_QL80_.jpg",
+        "description": "Rechargeable electric toothbrush with multiple modes.",
+        "price": 49.99,
+        "category": "Personal Care",
+        "rating": 4.6
+      },
+      {
+        "id": 35,
+        "name": "Air Fryer XL",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/km57hjk0/air-fryer/v/1/r/silver-air-fryer-xl-5-3-quart-1700-watt-electric-hot-air-fryers-original-imagf44zhgxh2dyb.jpeg?q=20&crop=false",
+        "description": "Oil-free cooking with a large capacity air fryer.",
+        "price": 159.99,
+        "category": "Kitchen Appliances",
+        "rating": 4.7
+      },
+      {
+        "id": 36,
+        "name": "Stainless Steel Water Bottle",
+        "image": "https://www.jiomart.com/images/product/original/rvf3chhxto/the-better-home-deep-blue-stainless-steel-insulated-water-bottle-1-litre-product-images-orvf3chhxto-p600061367-0-202304011152.jpg?im=Resize=(1000,1000)",
+        "description": "Double-wall insulated stainless steel water bottle.",
+        "price": 19.99,
+        "category": "Home & Kitchen",
+        "rating": 4.6
+      },
+      {
+        "id": 37,
+        "name": "Men's Winter Jacket",
+        "image": "https://xdogtrekking.com/wp-content/uploads/2023/06/New-Project-1-1.png",
+        "description": "Warm and stylish winter jacket for cold weather.",
+        "price": 129.99,
+        "category": "Fashion",
+        "rating": 4.5
+      },
+      {
+        "id": 38,
+        "name": "LED Desk Lamp",
+        "image": "https://m.media-amazon.com/images/I/718cqlfAZkL.jpg",
+        "description": "Dimmable LED desk lamp with touch control.",
+        "price": 39.99,
+        "category": "Home Decor",
+        "rating": 4.6
+      }
+  ]
+  
