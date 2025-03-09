@@ -14,7 +14,7 @@ function Header() {
 
   const iscart = location.pathname ==='/cart'
 
-  // Check if user exists in localStorage on component mount
+  
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (storedUser) {

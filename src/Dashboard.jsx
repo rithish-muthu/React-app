@@ -28,7 +28,7 @@ function Dashboard() {
               <div className="flex flex-col flex-grow text-center md:text-left">
                 <h3 className="text-xl font-semibold text-gray-800">{product.name}</h3>
                 <p className="text-gray-600 mt-2 flex-grow">{product.description}</p>
-                <p className="text-lg font-bold text-blue-600 mt-2">Price: ${product.price}</p>
+                <p className="text-lg font-bold text-blue-600 mt-2">Price: ₹{product.price}</p>
                 <p className="text-gray-700 mt-1">Category: {product.category}</p>
                 <p className="text-yellow-500 mt-1">⭐ {product.rating}</p>
               </div>

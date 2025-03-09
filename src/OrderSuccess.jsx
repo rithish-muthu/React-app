@@ -12,12 +12,12 @@ function OrderSuccess() {
           Thank you for your purchase! Your order has been confirmed and will be shipped soon.
         </p>
         
-        {/* Order Summary Message */}
+
         <div className="bg-green-100 p-4 rounded-lg mb-4">
           <p className="text-green-800 font-semibold">A confirmation email has been sent to your email address.</p>
         </div>
 
-        {/* Back to Home Button */}
+
         <button
           onClick={() => navigate("/")}
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-transform duration-200 hover:scale-105 active:scale-95"

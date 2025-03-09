@@ -27,7 +27,7 @@ function Signup() {
       <div className="bg-white w-full max-w-md rounded-2xl shadow-xl p-8">
         <div className="text-center mb-8">
           <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-            {/* <UserPlus  /> */}
+         
             <FontAwesomeIcon icon={faUser} size='2x' className='className="w-8 h-8 text-blue-600"'/>
           </div>
           <h2 className="text-2xl font-bold text-gray-800">Create an account</h2>
@@ -87,7 +87,7 @@ function Signup() {
               Confirm Password
             </label>
             <div className="relative">
-              {/* <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" /> */}
+              
               <input
                 type="password"
                 value={confirmPassword}

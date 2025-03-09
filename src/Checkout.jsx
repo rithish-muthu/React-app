@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 function Checkout() {
   const navigate = useNavigate();
   
-  // Parse cart from localStorage
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
 
   const [formData, setFormData] = useState({
@@ -14,7 +13,6 @@ function Checkout() {
     paymentMethod: "credit_card",
   });
 
-  // Calculate total price
   const totalPrice = cart.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2);
 
   const handleChange = (e) => {
@@ -28,8 +26,8 @@ function Checkout() {
       return;
     }
     alert("Order placed successfully!");
-    localStorage.removeItem("cart"); // Clear cart after order
-    navigate("/ordersuccess"); // Redirect to success page
+    localStorage.removeItem("cart"); 
+    navigate("/ordersuccess"); 
   };
 
   return (
@@ -37,7 +35,7 @@ function Checkout() {
       <h1 className="text-4xl font-bold mb-6">Checkout 🛍️</h1>
 
       <div className="w-full max-w-4xl bg-white shadow-lg p-6 rounded-lg">
-        {/* Order Summary */}
+
         <h2 className="text-2xl font-semibold mb-4">Order Summary</h2>
         {cart.length === 0 ? (
           <p className="text-lg">Your cart is empty.</p>
@@ -46,17 +44,17 @@ function Checkout() {
             {cart.map((item) => (
               <div key={item.id} className="flex justify-between items-center border-b py-2">
                 <h2 className="text-lg font-semibold">{item.name}</h2>
-                <p className="text-lg text-blue-600">${item.price} x {item.quantity}</p>
+                <p className="text-lg text-blue-600">₹{item.price} x {item.quantity}</p>
               </div>
             ))}
             <div className="flex justify-between text-2xl font-bold mt-4">
               <span>Total:</span>
-              <span className="text-green-600">${totalPrice}</span>
+              <span className="text-green-600">₹{totalPrice}</span>
             </div>
           </>
         )}
 
-        {/* Checkout Form */}
+     
         <form className="mt-6 space-y-4" onSubmit={handleSubmit}>
           <input
             type="text"
@@ -85,7 +83,7 @@ function Checkout() {
             required
           ></textarea>
 
-          {/* Payment Method */}
+        
           <div className="space-y-2">
             <h3 className="text-lg font-semibold">Payment Method</h3>
             <label className="flex items-center space-x-2">
@@ -120,7 +118,7 @@ function Checkout() {
             </label>
           </div>
 
-          {/* Place Order Button */}
+      
           <button
             type="submit"
             className="mt-6 w-full bg-blue-500 hover:bg-blue-700 text-white font-bold text-xl py-3 rounded-lg shadow-lg transition-transform duration-200 hover:scale-105 active:scale-95"

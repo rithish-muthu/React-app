@@ -1,6 +1,5 @@
 // import data from './products.json'
 import './App.css'
-import Header from './Header'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Home from './Home'
 import Signup from './Signup.jsx'

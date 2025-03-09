@@ -55,7 +55,7 @@ function Product() {
             {product.description}
           </p>
           <p className="text-3xl font-bold text-blue-600 mt-8">
-            Price: ${product.price}
+            Price: ₹{product.price}
           </p>
           <p className="text-2xl text-gray-800 mt-4">
             Category: {product.category}

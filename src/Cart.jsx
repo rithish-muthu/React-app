@@ -5,20 +5,20 @@ function Cart() {
   const [cart, setCart] = useState([]);
   const navigate = useNavigate();
 
-  // Load cart items from localStorage
+ 
   useEffect(() => {
     const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
     setCart(storedCart);
   }, []);
 
-  // Remove item from cart
+ 
   const removeFromCart = (id) => {
     const updatedCart = cart.filter((item) => item.id !== id);
     setCart(updatedCart);
     localStorage.setItem("cart", JSON.stringify(updatedCart));
   };
 
-  // Increase quantity
+
   const increaseQuantity = (id) => {
     const updatedCart = cart.map((item) =>
       item.id === id ? { ...item, quantity: item.quantity + 1 } : item
@@ -27,7 +27,6 @@ function Cart() {
     localStorage.setItem("cart", JSON.stringify(updatedCart));
   };
 
-  // Decrease quantity
   const decreaseQuantity = (id) => {
     const updatedCart = cart.map((item) =>
       item.id === id ? { ...item, quantity: Math.max(item.quantity - 1, 1) } : item
@@ -87,13 +86,13 @@ function Cart() {
         </div>
       ))}
 
-      {/* Total Price */}
+
       <div className="flex justify-between items-center mt-6 text-2xl font-bold">
         <span>Total Amount:</span>
-        <span className="text-green-600">${cart.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2)}</span>
+        <span className="text-green-600">₹{cart.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2)}</span>
       </div>
 
-      {/* Buy Now Button */}
+  
       <button
         onClick={handleBuyNow}
         className="mt-6 w-full bg-blue-500 hover:bg-blue-700 text-white font-bold text-xl py-3 rounded-lg shadow-lg transition-transform duration-200 hover:scale-105 active:scale-95"
